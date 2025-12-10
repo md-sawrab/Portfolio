@@ -20,55 +20,48 @@ const openSans = Open_Sans({
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "SAYYED SOHEL",
-  url: "https://sohez.github.io/",
-  image: "https://sohez.github.io/images/hero/sohel-sayyed-image.webp",
+  name: "Md. Sawrab",
+  url: "https://md-sawrab.github.io/Portfolio/",
+  image: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
   sameAs: [
     "https://www.instagram.com/sohel_sayyed.0x",
-    "https://github.com/sohez",
-    "https://www.linkedin.com/in/sohez/",
+    "https://github.com/md-sawrab",
+    "https://www.linkedin.com/in/md-sawrab/",
   ],
-  jobTitle: "Founder & Software Developer",
-  worksFor: {
-    "@type": "Organization",
-    name: "Sohezsoft",
-    url: "https://sohez.github.io/",
-  },
+  jobTitle: "Full Stack Developer & Android Developer",
   description:
-    "Sayyed Sohel — Full-Stack Web & Android Developer, Founder of Sohezsoft. I build fast, modern, and user-focused digital experiences that stand out.",
+    "Md. Sawrab — Full-Stack Web & Android Developer. I build fast, modern, and user-focused digital experiences that stand out.",
 };
 
 export const metadata: Metadata = {
-  title: "Sohez: Official Site of Sayyed Sohel",
+  title: "Md. Sawrab - Full Stack & Android Developer",
   description:
-    "Sayyed Sohel — Full-Stack Web & Android Developer, Founder of Sohezsoft. I build fast, modern, and user-focused digital experiences that stand out.",
+    "Md. Sawrab — Full-Stack Web & Android Developer. I build fast, modern, and user-focused digital experiences that stand out.",
   keywords: [
-    "Sohez: Official Site of Sayyed Sohel",
-    "sayyed sohel",
-    "sohez",
-    "Sohez Official",
+    "Md. Sawrab",
+    "Full Stack Developer",
+    "Android Developer",
     "Portfolio website",
-    "Developer website",
-    "Websites Development",
-    "Android Development",
+    "Web Development",
+    "Mobile Development",
   ],
-  metadataBase: new URL("https://sohez.github.io/"),
+  metadataBase: new URL("https://md-sawrab.github.io/Portfolio/"),
   alternates: {
-    canonical: "https://sohez.github.io/",
+    canonical: "https://md-sawrab.github.io/Portfolio/",
   },
   openGraph: {
     type: "website",
-    url: "https://sohez.github.io/",
-    title: "Sohez: Official Site of Sayyed Sohel",
+    url: "https://md-sawrab.github.io/Portfolio/",
+    title: "Md. Sawrab - Full Stack & Android Developer",
     description:
-      "Sayyed Sohel — Full-Stack Web & Android Developer, Founder of Sohezsoft. I build fast, modern, and user-focused digital experiences that stand out.",
-    siteName: "sohez.github.io",
+      "Md. Sawrab — Full-Stack Web & Android Developer. I build fast, modern, and user-focused digital experiences that stand out.",
+    siteName: "Portfolio",
     images: [
       {
-        url: "https://sohez.github.io/images/hero/sohel-sayyed-image.webp",
+        url: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
         width: 800,
         height: 800,
-        alt: "Sayyed Sohel",
+        alt: "Md. Sawrab",
       },
     ],
     locale: "en_US",
@@ -77,17 +70,14 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  verification: {
-    google: "bu-25FFf4PhQHh1K0g0TkBl234K940ET9TRibw34ExM",
-  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Sohez",
+    title: "Md. Sawrab",
   },
   icons: {
-    icon: "https://sohez.github.io/images/hero/sohel-sayyed-image.webp",
-    apple: "https://sohez.github.io/images/hero/sohel-sayyed-image.webp",
+    icon: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
+    apple: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
   },
 };
 
