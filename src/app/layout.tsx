@@ -22,7 +22,7 @@ const schemaData = {
   "@type": "Person",
   name: "Md. Sawrab",
   url: "https://md-sawrab.github.io/Portfolio/",
-  image: "/Portfolio/images/hero/Profile Picture.jpg",
+  image: "/Portfolio/images/hero/profile.jpg",
   sameAs: [
     "https://www.instagram.com/sohel_sayyed.0x",
     "https://github.com/md-sawrab",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     siteName: "Portfolio",
     images: [
       {
-        url: "/Portfolio/images/hero/Profile Picture.jpg",
+        url: "/Portfolio/images/hero/profile.jpg",
         width: 800,
         height: 800,
         alt: "Md. Sawrab",

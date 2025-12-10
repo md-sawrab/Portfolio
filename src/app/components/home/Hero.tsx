@@ -36,7 +36,7 @@ const Hero = () => {
           className="border-4 border-gray-800 group relative w-40 sm:w-40 md:w-48 lg:w-56 aspect-square overflow-hidden rounded-full transition-all duration-300"
         >
           <Image
-            src="/images/hero/Profile Picture.jpg"
+            src="/images/hero/profile.jpg"
             alt="Md. Sawrab - profile photo"
             fill
             className="grayscale-100 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
