@@ -78,9 +78,9 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.jpg", type: "image/jpeg" },
+      { url: "https://md-sawrab.github.io/Portfolio/favicon.jpg", type: "image/jpeg" },
     ],
-    apple: "/favicon.jpg",
+    apple: "https://md-sawrab.github.io/Portfolio/favicon.jpg",
   },
 };
 

@@ -25,6 +25,8 @@ const socialLinks = [
 ];
 
 const Hero = () => {
+  const basePath = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
+  
   return (
     <section className="w-full mt-35 px-6">
       <div className="max-w-7xl mx-auto flex flex-col gap-2 justify-center items-center">
@@ -36,7 +38,7 @@ const Hero = () => {
           className="border-4 border-gray-800 group relative w-40 sm:w-40 md:w-48 lg:w-56 aspect-square overflow-hidden rounded-full transition-all duration-300"
         >
           <Image
-            src="/images/hero/profile.jpg"
+            src={`${basePath}/images/hero/profile.jpg`}
             alt="Md. Sawrab - profile photo"
             fill
             unoptimized
