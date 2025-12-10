@@ -15,30 +15,18 @@ export interface ExperienceItem {
 
 export const experienceData: ExperienceItem[] = [
   {
-    company: "Company Name",
-    position: "Full Stack Developer",
-    duration: "Jan 2023 - Present",
-    location: "Remote",
+    company: "Akaademy",
+    position: "Teaching Assistant (TA)",
+    duration: "Jan 2024 - Sept 2025",
+    location: "Edtech Platform",
     description: [
-      "Developed and maintained web applications using React, Next.js, and Node.js",
-      "Collaborated with cross-functional teams to deliver high-quality products",
-      "Implemented responsive designs and optimized application performance",
+      "Served as a Teaching Assistant at Akaademy, an edtech platform for Data Science, Data Analysis, Business Intelligence, and Machine Learning",
+      "Assisted in module creation and assignment design to support project-based learning",
+      "Reviewed and graded student assignments, providing constructive feedback",
+      "Conducted problem-solving sessions and supported students in resolving queries to enhance their learning experience",
     ],
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL"],
+    technologies: ["Data Science", "Data Analysis", "Business Intelligence", "Machine Learning", "Python"],
   },
-  {
-    company: "Previous Company",
-    position: "Frontend Developer",
-    duration: "Jun 2021 - Dec 2022",
-    location: "City, Country",
-    description: [
-      "Built user interfaces using React and modern CSS frameworks",
-      "Worked closely with designers to implement pixel-perfect designs",
-      "Improved page load times by 40% through optimization techniques",
-    ],
-    technologies: ["React", "JavaScript", "TailwindCSS", "Git"],
-  },
-  // Add your actual experience here
 ];
 
 const Experience = () => {

@@ -22,28 +22,29 @@ const schemaData = {
   "@type": "Person",
   name: "Md. Sawrab",
   url: "https://md-sawrab.github.io/Portfolio/",
-  image: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
+  image: "/Portfolio/images/hero/Profile Picture.jpg",
   sameAs: [
     "https://www.instagram.com/sohel_sayyed.0x",
     "https://github.com/md-sawrab",
     "https://www.linkedin.com/in/md-sawrab/",
   ],
-  jobTitle: "Full Stack Developer & Android Developer",
+  jobTitle: "Data Analyst",
   description:
-    "Md. Sawrab — Full-Stack Web & Android Developer. I build fast, modern, and user-focused digital experiences that stand out.",
+    "Md. Sawrab — Data Analyst specializing in turning raw data into clear insights, dashboards, and data-driven decisions.",
 };
 
 export const metadata: Metadata = {
-  title: "Md. Sawrab - Full Stack & Android Developer",
+  title: "Md. Sawrab - Data Analyst",
   description:
-    "Md. Sawrab — Full-Stack Web & Android Developer. I build fast, modern, and user-focused digital experiences that stand out.",
+    "Md. Sawrab — Data Analyst specializing in insights, dashboards, and data-driven decisions.",
   keywords: [
     "Md. Sawrab",
-    "Full Stack Developer",
-    "Android Developer",
-    "Portfolio website",
-    "Web Development",
-    "Mobile Development",
+    "Data Analyst",
+    "Data Visualization",
+    "Business Intelligence",
+    "SQL",
+    "Python",
+    "Dashboards",
   ],
   metadataBase: new URL("https://md-sawrab.github.io/Portfolio/"),
   alternates: {
@@ -52,13 +53,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://md-sawrab.github.io/Portfolio/",
-    title: "Md. Sawrab - Full Stack & Android Developer",
+    title: "Md. Sawrab - Data Analyst",
     description:
-      "Md. Sawrab — Full-Stack Web & Android Developer. I build fast, modern, and user-focused digital experiences that stand out.",
+      "Md. Sawrab — Data Analyst specializing in insights, dashboards, and data-driven decisions.",
     siteName: "Portfolio",
     images: [
       {
-        url: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
+        url: "/Portfolio/images/hero/Profile Picture.jpg",
         width: 800,
         height: 800,
         alt: "Md. Sawrab",
@@ -76,8 +77,10 @@ export const metadata: Metadata = {
     title: "Md. Sawrab",
   },
   icons: {
-    icon: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
-    apple: "https://md-sawrab.github.io/Portfolio/images/hero/sohel-sayyed-image.webp",
+    icon: [
+      { url: "/favicon.jpg", type: "image/jpeg" },
+    ],
+    apple: "/favicon.jpg",
   },
 };
 

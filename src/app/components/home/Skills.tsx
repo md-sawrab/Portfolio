@@ -1,23 +1,9 @@
 'use client';
 import React from "react";
 import { IconType } from "react-icons";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { TbBrandTypescript } from "react-icons/tb";
-import { RiTailwindCssLine } from "react-icons/ri";
-import { SiExpress } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { RiAndroidLine } from "react-icons/ri";
-import { TbBrandKotlin } from "react-icons/tb";
-import { SiJetpackcompose } from "react-icons/si";
-import { TbBrandMongodb } from "react-icons/tb";
-import { DiRedis } from "react-icons/di";
-import { TbBrandJavascript } from "react-icons/tb";
-import { SiFirebase } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { RiVercelLine } from "react-icons/ri";
-import { TbBrandCloudflare } from "react-icons/tb";
+import { FaPython, FaGitAlt, FaGithub, FaRProject, FaDatabase, FaChartLine, FaTable, FaChartBar } from "react-icons/fa";
+import { SiTableau, SiNumpy, SiPandas, SiKaggle } from "react-icons/si";
+import { TbBrandVscode, TbSql, TbBrandAzure } from "react-icons/tb";
 import SectionHeader from "../ui/SectionHeader";
 import { motion } from "framer-motion";
 
@@ -33,36 +19,38 @@ export interface SkillGroup {
 
 export const skillsData: SkillGroup[] = [
   {
-    title: "Frontend",
+    title: "Programming Languages",
     skills: [
-      { name: "React", logo: FaReact },
-      { name: "Next.js", logo: TbBrandNextjs },
-      { name: "TypeScript", logo: TbBrandTypescript },
-      { name: "TailwindCSS", logo: RiTailwindCssLine },
-      { name: "Javascript", logo: TbBrandJavascript },
+      { name: "Python", logo: FaPython },
+      { name: "R", logo: FaRProject },
+      { name: "SQL", logo: TbSql },
+    ],
+  },
+  {
+    title: "Data Science & ML",
+    skills: [
+      { name: "NumPy", logo: SiNumpy },
+      { name: "Pandas", logo: SiPandas },
+      { name: "Matplotlib", logo: FaChartLine },
+    ],
+  },
+  {
+    title: "Data Visualization",
+    skills: [
+      { name: "Power BI", logo: FaChartBar },
+      { name: "Tableau", logo: SiTableau },
+      { name: "Excel", logo: FaTable },
+      { name: "SAS", logo: FaDatabase },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      { name: "GitHub", logo: FaGithub },
+      { name: "VS Code", logo: TbBrandVscode },
+      { name: "Azure", logo: TbBrandAzure },
+      { name: "Kaggle", logo: SiKaggle },
       { name: "Git", logo: FaGitAlt },
-      { name: "Github", logo: FaGithub },
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      { name: "Node.js", logo: FaNodeJs },
-      { name: "Express", logo: SiExpress },
-      { name: "PostgreSQL", logo: SiPostgresql },
-      { name: "Mongodb", logo: TbBrandMongodb },
-      { name: "Redis", logo: DiRedis },
-      { name: "Firebase", logo: SiFirebase },
-      { name: "Vercel", logo: RiVercelLine },
-      { name: "Cloudflare", logo: TbBrandCloudflare },
-    ],
-  },
-  {
-    title: "Mobile",
-    skills: [
-      { name: "Android", logo: RiAndroidLine },
-      { name: "Kotlin", logo: TbBrandKotlin },
-      { name: "Jetpack Compose", logo: SiJetpackcompose },
     ],
   },
 ];
@@ -80,9 +68,9 @@ const Skills = () => {
           viewport={{ once: true }}
         >
           <SectionHeader
-            title="Technologies"
-            description="Technologies I use to craft digital experiences"
-            subtitle="Tech Stack"
+            title="Tech Stack"
+            description="Tools and technologies I use for data analysis and insights"
+            subtitle="Skills"
           />
         </motion.div>
 

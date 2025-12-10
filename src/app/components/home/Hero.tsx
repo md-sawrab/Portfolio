@@ -36,7 +36,7 @@ const Hero = () => {
           className="border-4 border-gray-800 group relative w-40 sm:w-40 md:w-48 lg:w-56 aspect-square overflow-hidden rounded-full transition-all duration-300"
         >
           <Image
-            src="/images/hero/sohel-sayyed-image.webp"
+            src="/images/hero/Profile Picture.jpg"
             alt="Md. Sawrab - profile photo"
             fill
             className="grayscale-100 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
@@ -66,11 +66,8 @@ const Hero = () => {
           </motion.div>
 
           <p className="text-xl tracking-wider text-center leading-relaxed">
-            I&apos;m Md. Sawrab, a professional with extensive experience in{" "}
-            <span>crafting user-friendly <span className="bg-blue-900/60 px-1">websites</span></span> and powerful{" "}
-            <span className="bg-purple-900/60 px-1">Android applications</span>. I can help you bring your digital
-            ideas to life — whether it&apos;s a sleek modern website or a
-            feature-rich mobile app!
+            I&apos;m Md. Sawrab, a data analyst focused on turning raw data into actionable insights. I build clear
+            dashboards, automate reporting, and translate metrics into decisions that teams can act on.
           </p>
 
           <motion.div
@@ -96,10 +93,10 @@ const SkillsSlider = () => {
       <div className="slider">
         <div className="slides text-gray-300">
           <div>
-            Android Dev
+            Data Analyst
           </div>
           <div>
-            Fullstack Dev
+            Data Visualization
           </div>
         </div>
       </div>
