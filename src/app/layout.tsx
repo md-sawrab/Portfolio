@@ -110,6 +110,7 @@ export default function RootLayout({
       </head>
       <body
         className={`${montserrat.variable} ${openSans.variable} antialiased grid-background`}
+        suppressHydrationWarning
       >
         <ScrollToTop />
         <Header />

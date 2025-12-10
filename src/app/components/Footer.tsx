@@ -49,11 +49,10 @@ const Footer = () => {
         <div className="mt-4 w-full flex flex-col-reverse md:flex-row gap-8 justify-between">
           <div className="flex gap-1 flex-col items-center md:items-start justify-center">
             <h3 className="text-xl font-medium font-display flex gap-1">
-              <Code2Icon /> SAYYED SOHEL
+              <Code2Icon /> MD. SAWRAB
             </h3>
             <p className="text-gray-500 text-center">
-              Sayyed Sohel © {new Date().getFullYear()} Built with ❤️ by Sohel
-              Sayyed
+            {new Date().getFullYear()} © Original design by Sohel Sayyed 
             </p>
           </div>
 

@@ -37,7 +37,7 @@ const Hero = () => {
         >
           <Image
             src="/images/hero/sohel-sayyed-image.webp"
-            alt="Sohel Sayyed - profile photo"
+            alt="Md. Sawrab - profile photo"
             fill
             className="grayscale-100 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
           />
@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="flex flex-col justify-center items-center text-center md:text-start md:justify-start md:items-start">
             <span>Hi, I&apos;m</span>
             <h1 className="font-display tracking-normal text-5xl font-medium text-gray-50">
-              Sohel Sayyed
+              Md. Sawrab
             </h1>
           </div>
 
@@ -66,7 +66,7 @@ const Hero = () => {
           </motion.div>
 
           <p className="text-xl tracking-wider text-center leading-relaxed">
-            I&apos;m Sayyed Sohel, a professional with extensive experience in{" "}
+            I&apos;m Md. Sawrab, a professional with extensive experience in{" "}
             <span>crafting user-friendly <span className="bg-blue-900/60 px-1">websites</span></span> and powerful{" "}
             <span className="bg-purple-900/60 px-1">Android applications</span>. I can help you bring your digital
             ideas to life — whether it&apos;s a sleek modern website or a
