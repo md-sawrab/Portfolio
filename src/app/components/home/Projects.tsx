@@ -27,6 +27,8 @@ const projects: Project[] = [
 ];
 
 const Projects = () => {
+  const basePath = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
+  
   return (
     <section className="w-full mt-25 px-6" id="projects">
       <div className="max-w-7xl mx-auto flex flex-col gap-2 justify-center items-center">
@@ -70,7 +72,7 @@ const Projects = () => {
                 visible: { opacity: 1, y: 0 },
               }}
             >
-              <ProjectCard project={project} />
+              <ProjectCard project={project} basePath={basePath} />
             </motion.div>
           ))}
         </motion.div>
@@ -81,7 +83,7 @@ const Projects = () => {
 
 export default Projects;
 
-const ProjectCard = ({ project }: { project: Project }) => {
+const ProjectCard = ({ project, basePath }: { project: Project; basePath: string }) => {
   return (
     <article className="h-full flex flex-col border border-gray-700 text-gray-300 backdrop-blur-3xl bg-[#161B22]/70 rounded-2xl overflow-hidden group transition-all duration-300 hover:scale-[1.02]">
       {/* Image Section */}
@@ -89,7 +91,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <Image
           fill
           loading="lazy"
-          src={project.image}
+          src={`${basePath}${project.image}`}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
