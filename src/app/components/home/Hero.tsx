@@ -39,6 +39,7 @@ const Hero = () => {
             src="/images/hero/profile.jpg"
             alt="Md. Sawrab - profile photo"
             fill
+            unoptimized
             className="grayscale-100 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
           />
         </motion.div>
