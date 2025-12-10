@@ -2,25 +2,25 @@
 import Image from "next/image";
 import React from "react";
 import "./hero.css";
-import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { MdMailOutline } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const socialLinks = [
   {
-    name: "Instagram",
-    icon: <BsInstagram size={20} />,
-    url: "https://www.instagram.com/sohel_sayyed.0x",
+    name: "LinkedIn",
+    icon: <BsLinkedin size={20} />,
+    url: "https://www.linkedin.com/in/md-sawrab/",
   },
   {
     name: "Email",
     icon: <MdMailOutline size={25} />,
-    url: "mailto:techsohez@gmail.com",
+    url: "mailto:mdsawrab02@gmail.com",
   },
   {
     name: "WhatsApp",
     icon: <BsWhatsapp size={20} />,
-    url: "https://wa.me/+917887614788",
+    url: "https://wa.me/01789618493",
   },
 ];
 
@@ -99,7 +99,7 @@ const SkillsSlider = () => {
             Data Analyst
           </div>
           <div>
-            Data Visualization
+            Data Visualizer
           </div>
         </div>
       </div>

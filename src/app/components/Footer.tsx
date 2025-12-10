@@ -2,31 +2,26 @@
 import { Code2Icon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import { FiLinkedin } from "react-icons/fi";
 import { GoMoveToTop } from "react-icons/go";
 import { MdMailOutline } from "react-icons/md";
 
 const socialLinks = [
   {
-    name: "Instagram",
-    icon: <BsInstagram size={20} />,
-    url: "https://www.instagram.com/sohel_sayyed.0x",
-  },
-  {
-    name: "WhatsApp",
-    icon: <BsWhatsapp size={20} />,
-    url: "https://wa.me/+917887614788",
+    name: "LinkedIn",
+    icon: <FiLinkedin size={24} />,
+    url: "https://www.linkedin.com/in/md-sawrab/",
   },
   {
     name: "Email",
     icon: <MdMailOutline size={24} />,
-    url: "mailto:techsohez@gmail.com",
+    url: "mailto:mdsawrab02@gmail.com",
   },
   {
-    name: "Linkedin",
-    icon: <FiLinkedin size={24} />,
-    url: "https://www.linkedin.com/in/sohez/",
+    name: "WhatsApp",
+    icon: <BsWhatsapp size={20} />,
+    url: "https://wa.me/01789618493",
   },
 ];
 

@@ -15,7 +15,7 @@ const Contact = () => {
   const [isSending, setIsSending] = useState(false);
 
   const emailUrl =
-    "https://script.google.com/macros/s/AKfycbwkjI7POBip0D3idUWfZwmdN4bV9TPfkfUWLwWZbu_rxDWSM5_F5VI1jVAXCKlRt0ykAg/exec";
+    "https://script.google.com/macros/s/AKfycbxrvQHc26y3Xn1MIDPQ5BoXu816L5S6S7zfMGUi1h9DzuxLT0AMThMKAshvS4XXZ5GeTw/exec";
 
   /** Email validation */
   const checkEmailIsValid = (email: string) => {

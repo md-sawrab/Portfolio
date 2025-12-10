@@ -16,39 +16,13 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Mcodo :Learn Coding with AI",
+    title: "AdventureWorks Power BI Report",
     description:
-      "Mcodo is an AI-powered learning platform that makes coding interactive, personalized, and fun for everyone—from beginners to pros.",
-    image: "/images/projects/mcodo.webp",
-    tags: ["Kotlin", "NodeJS", "Room-DB", "Ktor Client", "SSE"],
-    github: null,
-    demo: "https://play.google.com/store/apps/details?id=com.sohezsoft.mcodo&hl=en_IN",
-  },
-  {
-    title: "HRMS System",
-    description:
-      "HRMS System – Full Stack Web & Android app for attendance, leave, payroll, and scheduling with secure RBAC and JWT auth.",
-    image: "/images/projects/hrms.webp",
-    tags: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "Express",
-      "PostgreSQL",
-      "Jetpack Compose",
-      "Drizzel-ORM",
-    ],
-    github: null,
-    demo: null,
-  },
-  {
-    title: "M.C.P : Marks & Percentage Calculator",
-    description:
-      "powerful and easy-to-use solution for calculating academic performance. Built with HTML, CSS, JavaScript, html2canvas, and jsPDF.",
-    image: "/images/projects/mpc.webp",
-    tags: ["HTML", "Css", "JS", "html2canvas", "jsPDF"],
-    github: "https://github.com/sohez/Marks-Percentage-Calculator",
-    demo: "https://sohez.github.io/Marks-Percentage-Calculator/",
+      "Comprehensive Power BI dashboard analyzing AdventureWorks global manufacturing company performance with executive insights, product details, customer analytics, and geographic trends.",
+    image: "/images/projects/Adventure Work.png",
+    tags: ["Power BI", "DAX", "Data Modeling", "ETL", "Power Query", "Data Visualization"],
+    github: "https://shorturl.at/EGLP4",
+    demo: "https://shorturl.at/ezBU8",
   },
 ];
 
@@ -99,17 +73,6 @@ const Projects = () => {
               <ProjectCard project={project} />
             </motion.div>
           ))}
-        </motion.div>
-
-        {/* Footer Note */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          viewport={{ once: true }}
-          className="mt-6 text-center text-gray-500"
-        >
-          Delivered 15+ confidential projects across web and mobile platforms.
         </motion.div>
       </div>
     </section>
@@ -168,17 +131,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
             >
               <Github className="h-4 w-4 mr-2" />
               Code
-            </a>
-          )}
-          {project.demo && (
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 flex justify-center items-center py-2.5 rounded-lg border border-gray-700 hover:border-red-500 hover:text-red-500 transition-all"
-            >
-              <ExternalLink className="h-4 w-4 mr-2" />
-              View
             </a>
           )}
         </div>

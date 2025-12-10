@@ -3,6 +3,7 @@ import React from "react";
 import SectionHeader from "../ui/SectionHeader";
 import { motion } from "framer-motion";
 import { Award, Calendar, ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 export interface CertificateItem {
   title: string;
@@ -16,23 +17,13 @@ export interface CertificateItem {
 
 export const certificatesData: CertificateItem[] = [
   {
-    title: "Certificate Name",
-    issuer: "Issuing Organization",
-    date: "Jan 2023",
-    credentialId: "ABC123XYZ",
-    credentialUrl: "https://example.com/verify",
-    description: "Description of what this certificate represents and the skills gained.",
-    skills: ["Skill 1", "Skill 2", "Skill 3"],
+    title: "GitHub Foundations",
+    issuer: "GitHub",
+    date: "Dec 2024",
+    credentialUrl: "https://www.credly.com/badges/2d2de31e-190f-441e-827d-e11426640503/public_url",
+    description: "Validates foundational knowledge of GitHub products, concepts, and workflows for collaborative software development.",
+    skills: ["Git", "GitHub", "Version Control", "Collaboration"],
   },
-  {
-    title: "Another Certificate",
-    issuer: "Platform Name",
-    date: "Jun 2022",
-    credentialUrl: "https://example.com/verify",
-    description: "Brief description of the certification program and achievements.",
-    skills: ["React", "Next.js", "TypeScript"],
-  },
-  // Add your actual certificates here
 ];
 
 const Certificate = () => {

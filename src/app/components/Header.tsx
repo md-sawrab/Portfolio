@@ -53,7 +53,7 @@ const NavBar = () => {
             <Link
               target="_blank"
               title="Github"
-              href="https://github.com/sohez"
+              href="https://github.com/md-sawrab"
               className="flex items-center gap-1 md:gap-2 hover:text-gray-200 transition-all duration-200 bg-gradient-to-b from-transparent to-transparent hover:from-transparent hover:to-gray-900 hover:border-b-[0.2] border-gray-500 px-2 md:px-3 py-2 rounded-lg"
             >
               <BsGithub size={18} />

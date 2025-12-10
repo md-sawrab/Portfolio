@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   keywords: [
     "Md. Sawrab",
     "Data Analyst",
-    "Data Visualization",
+    "Data Visualizer",
     "Business Intelligence",
     "SQL",
     "Python",
