@@ -24,6 +24,30 @@ export const certificatesData: CertificateItem[] = [
     description: "Validates foundational knowledge of GitHub products, concepts, and workflows for collaborative software development.",
     skills: ["Git", "GitHub", "Version Control", "Collaboration"],
   },
+  {
+    title: "SQL (Basic)",
+    issuer: "HackerRank",
+    date: "Jul 2025",
+    credentialUrl: "https://www.hackerrank.com/certificates/ec79e1b412be",
+    description: "SQL (Basic) certification covering simple queries, relationships, and aggregators.",
+    skills: ["SQL", "Queries", "Relationships", "Aggregators"],
+  },
+  {
+    title: "Power BI Desktop",
+    issuer: "Maven Analytics",
+    date: "Oct 2024",
+    credentialUrl: "https://certificates.mavenanalytics.io/9a720cae-da2b-42e7-aedf-2aaeeb4eac57#acc.rozjk5v4",
+    description: "Comprehensive 25-hour course mastering Power BI Desktop, covering data transformation, relational modeling, DAX measures, and interactive dashboard design.",
+    skills: ["Power BI", "DAX", "Data Modeling", "ETL", "Dashboards", "Data Visualization"],
+  },
+  {
+    title: "MySQL Data Analysis",
+    issuer: "Maven Analytics",
+    date: "Oct 2024",
+    credentialUrl: "https://certificates.mavenanalytics.io/70255660-b565-40d0-b42e-fe5008cec263#acc.vpYe1ByO",
+    description: "8-hour hands-on course covering MySQL for data analysis, including SQL fundamentals, data filtering, grouping, and complex JOIN queries for business intelligence.",
+    skills: ["MySQL", "Data Analysis", "SQL", "Business Intelligence"],
+  },
 ];
 
 const Certificate = () => {
