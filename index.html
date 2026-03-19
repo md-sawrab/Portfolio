@@ -3,291 +3,232 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0f1117" />
-  <title>Sawrab | Data Analyst</title>
-  <meta name="description" content="Data Analyst portfolio â€” dashboards, insights, and data-driven storytelling." />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Md. Sawrab | Data Analyst</title>
+  <meta name="description" content="Portfolio of Md. Sawrab, Data Analyst focused on dashboards, reporting automation, and business insights." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- NAV -->
   <header class="site-header">
-    <nav class="nav-inner shell">
-      <a class="brand" href="#about">Sawrab</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+    <nav class="nav shell">
+      <a class="brand" href="#home">&lt;/&gt; MD. SAWRAB</a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="nav-divider" aria-hidden="true"></li>
+        <li>
+          <a href="https://github.com/md-sawrab" target="_blank" rel="noopener" aria-label="GitHub Profile" class="github-only-link">
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+            </svg>
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
-
-    <!-- ABOUT -->
-    <section id="about" class="section shell">
-      <div class="about-layout reveal">
-        <div class="about-photo">
-          <img src="images/Profile Picture (1).jpg" alt="Sawrab" />
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="shell hero-layout">
+        <div class="hero-profile reveal">
+          <img src="images/Profile Picture (1).jpg" alt="Portrait of Md. Sawrab" />
         </div>
-        <div class="about-text">
-          <p class="label">About</p>
-          <h1>Sawrab</h1>
-          <p class="role-tag">Data Analyst</p>
-          <p class="bio">
-            I help businesses make sense of their data. I specialize in turning raw numbers
-            into clear dashboards, actionable insights, and reports that drive decisions.
-            Comfortable working across the full analytics pipeline â€” from SQL queries to
-            polished Power BI visuals.
+        <div class="hero-copy reveal">
+          <p class="hero-kicker">Hi, I'm</p>
+          <h1>Md. Sawrab</h1>
+          <p class="hero-roleline">I'm Data Analyst</p>
+          <p class="lead">
+            I'm Md. Sawrab, focused on transforming raw data into clear
+            <span class="accent-chip accent-blue">dashboards</span>
+            and practical
+            <span class="accent-chip accent-violet">business insights</span>
+            to support smarter decisions.
           </p>
-          <div class="about-links">
-            <a href="mailto:youremail@example.com">youremail@example.com</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <div class="hero-social hero-social-icons">
+            <a href="https://github.com/md-sawrab" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/md-sawrab/" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+            <a href="mailto:mdsawrab02@gmail.com" aria-label="Email">@</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section shell">
-      <p class="label reveal">Experience</p>
-      <h2 class="section-title reveal">Work History</h2>
-      <div class="exp-list">
-
-        <div class="exp-item reveal">
-          <div class="exp-meta">
-            <span class="exp-date">2023 â€” Present</span>
-          </div>
-          <div class="exp-body">
-            <h3>Data Analyst <span class="exp-company">@ Company Name</span></h3>
-            <p>Built and maintained Power BI dashboards tracking KPIs across 3 business units. Automated monthly reporting, reducing manual effort by 40%. Collaborated with stakeholders to define metrics and data requirements.</p>
-            <ul class="chip-list">
-              <li>Power BI</li><li>SQL</li><li>Excel</li><li>DAX</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="exp-item reveal">
-          <div class="exp-meta">
-            <span class="exp-date">2021 â€” 2023</span>
-          </div>
-          <div class="exp-body">
-            <h3>Junior Analyst <span class="exp-company">@ Company Name</span></h3>
-            <p>Supported senior analysts in data collection, cleaning, and visualization. Created recurring Excel reports for the sales and operations teams. Wrote SQL queries to extract and transform data from relational databases.</p>
-            <ul class="chip-list">
-              <li>Excel</li><li>SQL</li><li>Python</li><li>Tableau</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="exp-item reveal">
-          <div class="exp-meta">
-            <span class="exp-date">2020 â€” 2021</span>
-          </div>
-          <div class="exp-body">
-            <h3>Data Intern <span class="exp-company">@ Company Name</span></h3>
-            <p>Assisted with data entry, validation, and basic reporting tasks. Gained hands-on experience with large datasets and introduced automation scripts in Python to speed up data cleaning workflows.</p>
-            <ul class="chip-list">
-              <li>Python</li><li>Excel</li><li>Google Sheets</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section shell">
-      <p class="label reveal">Skills</p>
-      <h2 class="section-title reveal">Tools &amp; Technologies</h2>
-      <div class="skills-grid">
-
-        <div class="skill-group reveal">
-          <h3 class="skill-group-title">Data &amp; BI Tools</h3>
-          <ul class="chip-list">
-            <li>Power BI</li>
-            <li>Tableau</li>
-            <li>Excel</li>
-            <li>Google Sheets</li>
-            <li>Looker Studio</li>
-          </ul>
-        </div>
-
-        <div class="skill-group reveal">
-          <h3 class="skill-group-title">Languages &amp; Querying</h3>
-          <ul class="chip-list">
-            <li>SQL</li>
-            <li>Python</li>
-            <li>DAX</li>
-            <li>M (Power Query)</li>
-            <li>Pandas</li>
-          </ul>
-        </div>
-
-        <div class="skill-group reveal">
-          <h3 class="skill-group-title">Analytics &amp; Methods</h3>
-          <ul class="chip-list">
-            <li>Data Cleaning</li>
-            <li>EDA</li>
-            <li>KPI Design</li>
-            <li>Dashboard Storytelling</li>
-            <li>Reporting Automation</li>
-          </ul>
-        </div>
-
-        <div class="skill-group reveal">
-          <h3 class="skill-group-title">Other</h3>
-          <ul class="chip-list">
-            <li>Git</li>
-            <li>Jupyter Notebook</li>
-            <li>Azure Data Studio</li>
-            <li>Notion</li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section shell">
-      <p class="label reveal">Projects</p>
-      <h2 class="section-title reveal">Selected Work</h2>
-      <div class="project-list">
-
-        <article class="project-card reveal">
-          <div class="project-header">
-            <span class="project-num">01</span>
-            <a class="project-link" href="#" target="_blank" rel="noopener">View â†’</a>
-          </div>
-          <h3>Retail Sales Dashboard</h3>
-          <p>Built an interactive Power BI dashboard to track monthly sales performance across 12 regions. Identified underperforming products and helped the team prioritize inventory adjustments.</p>
-          <ul class="chip-list">
-            <li>Power BI</li><li>Excel</li><li>DAX</li>
+    <section class="section shell" id="stack">
+      <p class="eyebrow reveal">Tech Stack</p>
+      <h2 class="section-title reveal">Technologies</h2>
+      <p class="section-subtitle reveal">Technologies I use to craft digital experiences.</p>
+      <div class="stack-panel reveal">
+        <div class="stack-grid">
+        <article class="stack-col">
+          <h3>Frontend</h3>
+          <ul class="stack-list">
+            <li><span>React</span></li>
+            <li><span>Next.js</span></li>
+            <li><span>TypeScript</span></li>
+            <li><span>TailwindCSS</span></li>
+            <li><span>Javascript</span></li>
+            <li><span>Git</span></li>
+            <li><span>Github</span></li>
           </ul>
         </article>
-
-        <article class="project-card reveal">
-          <div class="project-header">
-            <span class="project-num">02</span>
-            <a class="project-link" href="#" target="_blank" rel="noopener">View â†’</a>
-          </div>
-          <h3>Customer Retention Analysis</h3>
-          <p>Analyzed 3 years of customer transaction data using Python and SQL to identify churn patterns. Delivered findings that informed a retention campaign boosting renewal rates by 17%.</p>
-          <ul class="chip-list">
-            <li>SQL</li><li>Python</li><li>Pandas</li>
+        <article class="stack-col">
+          <h3>Backend</h3>
+          <ul class="stack-list">
+            <li><span>Node.js</span></li>
+            <li><span>Express</span></li>
+            <li><span>PostgreSQL</span></li>
+            <li><span>Mongodb</span></li>
+            <li><span>Redis</span></li>
+            <li><span>Firebase</span></li>
+            <li><span>Vercel</span></li>
+            <li><span>Cloudflare</span></li>
           </ul>
         </article>
-
-        <article class="project-card reveal">
-          <div class="project-header">
-            <span class="project-num">03</span>
-            <a class="project-link" href="#" target="_blank" rel="noopener">View â†’</a>
-          </div>
-          <h3>HR Attrition Dashboard</h3>
-          <p>Created a Power BI report to help HR identify attrition risk by department, tenure, and role. Used SQL to build a clean data model from raw HR exports.</p>
-          <ul class="chip-list">
-            <li>Power BI</li><li>SQL</li><li>Excel</li>
+        <article class="stack-col">
+          <h3>Mobile</h3>
+          <ul class="stack-list">
+            <li><span>Android</span></li>
+            <li><span>Kotlin</span></li>
+            <li><span>Jetpack Compose</span></li>
           </ul>
         </article>
-
+        </div>
       </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section shell">
-      <p class="label reveal">Certifications</p>
-      <h2 class="section-title reveal">Credentials</h2>
-      <div class="cert-list">
-
-        <div class="cert-card reveal">
-          <div class="cert-body">
-            <p class="cert-issuer">Microsoft</p>
-            <h3 class="cert-name">Power BI Data Analyst Associate (PL-300)</h3>
-            <p class="cert-date">Issued: Jan 2024</p>
+    <section class="section shell" id="projects">
+      <p class="eyebrow reveal">Projects</p>
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="section-subtitle reveal">A selection of recent analytics work demonstrating process, clarity, and impact.</p>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-media media-one">
+            <img src="https://sohez.github.io/images/projects/mcodo.webp" alt="Mcodo project preview" />
           </div>
-          <a class="cert-link" href="#" target="_blank" rel="noopener">Verify â†’</a>
-        </div>
-
-        <div class="cert-card reveal">
-          <div class="cert-body">
-            <p class="cert-issuer">Google</p>
-            <h3 class="cert-name">Google Data Analytics Professional Certificate</h3>
-            <p class="cert-date">Issued: Jun 2023</p>
+          <div class="project-body">
+            <h3>Mcodo : Learn Coding with AI</h3>
+            <p>
+              AI-powered learning platform that makes coding interactive, personalized, and beginner-friendly.
+            </p>
+            <ul class="tags"><li>Kotlin</li><li>NodeJS</li><li>Room-DB</li><li>SSE</li></ul>
+            <div class="project-actions">
+              <a href="https://github.com/md-sawrab" target="_blank" rel="noopener" class="project-icon-btn" aria-label="Open GitHub project">
+                <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                </svg>
+              </a>
+            </div>
           </div>
-          <a class="cert-link" href="#" target="_blank" rel="noopener">Verify â†’</a>
-        </div>
-
-        <div class="cert-card reveal">
-          <div class="cert-body">
-            <p class="cert-issuer">IBM</p>
-            <h3 class="cert-name">Data Analyst Professional Certificate</h3>
-            <p class="cert-date">Issued: Mar 2023</p>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-media media-two">
+            <img src="https://sohez.github.io/images/projects/hrms.webp" alt="HRMS system project preview" />
           </div>
-          <a class="cert-link" href="#" target="_blank" rel="noopener">Verify â†’</a>
-        </div>
-
-        <div class="cert-card reveal">
-          <div class="cert-body">
-            <p class="cert-issuer">DataCamp</p>
-            <h3 class="cert-name">Data Analyst with Python Track</h3>
-            <p class="cert-date">Issued: Sep 2022</p>
+          <div class="project-body">
+            <h3>HRMS System</h3>
+            <p>
+              Full-stack web and Android app for attendance, leave, payroll, and scheduling with secure auth.
+            </p>
+            <ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Express</li><li>PostgreSQL</li></ul>
+            <div class="project-actions">
+              <a href="https://github.com/md-sawrab" target="_blank" rel="noopener" class="project-icon-btn" aria-label="Open GitHub project">
+                <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                </svg>
+              </a>
+            </div>
           </div>
-          <a class="cert-link" href="#" target="_blank" rel="noopener">Verify â†’</a>
-        </div>
-
+        </article>
+        <article class="project-card reveal">
+          <div class="project-media media-three">
+            <img src="https://sohez.github.io/images/projects/mpc.webp" alt="Marks and percentage calculator project preview" />
+          </div>
+          <div class="project-body">
+            <h3>M.C.P : Marks & Percentage Calculator</h3>
+            <p>
+              Quick and easy tool for academic score and percentage calculation with PDF export support.
+            </p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JS</li><li>jsPDF</li></ul>
+            <div class="project-actions">
+              <a href="https://github.com/md-sawrab" target="_blank" rel="noopener" class="project-icon-btn" aria-label="Open GitHub project">
+                <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section shell">
-      <p class="label reveal">Contact</p>
-      <h2 class="section-title reveal">Get in Touch</h2>
-      <div class="contact-layout">
-        <div class="contact-info reveal">
-          <p class="contact-intro">Have a project in mind or want to work together? Fill out the form or reach me directly.</p>
-          <ul class="contact-details">
-            <li><span>Email</span><a href="mailto:youremail@example.com">youremail@example.com</a></li>
-            <li><span>LinkedIn</span><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
-            <li><span>GitHub</span><a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+    <section class="section shell" id="certifications">
+      <p class="eyebrow reveal">Certifications</p>
+      <h2 class="section-title reveal">Certifications</h2>
+      <p class="section-subtitle reveal">Professional certifications that support my analytics and reporting skill set.</p>
+      <div class="cert-grid reveal">
+        <article class="cert-card">
+          <p class="cert-year">2024</p>
+          <h3>Google Data Analytics</h3>
+          <p>Covered data cleaning, SQL querying, exploratory analysis, and dashboard storytelling workflows.</p>
+          <a href="#" target="_blank" rel="noopener">View Credential</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-year">2025</p>
+          <h3>Microsoft Power BI Data Analyst</h3>
+          <p>Focused on data modeling, DAX measures, report optimization, and publish/share best practices.</p>
+          <a href="#" target="_blank" rel="noopener">View Credential</a>
+        </article>
+        <article class="cert-card">
+          <p class="cert-year">2025</p>
+          <h3>SQL for Data Analysis</h3>
+          <p>Advanced querying with joins, CTEs, window functions, and performance-oriented query patterns.</p>
+          <a href="#" target="_blank" rel="noopener">View Credential</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="contact">
+      <p class="eyebrow reveal">Contact</p>
+      <h2 class="section-title reveal">Contact Me</h2>
+      <p class="section-subtitle reveal">I would love to hear from you. Whether you have a question, project idea, or collaboration request, feel free to reach out.</p>
+      <div class="contact-wrap">
+        <div class="contact-card reveal">
+          <h3>Let's Connect</h3>
+          <p class="contact-copy">Open for opportunities, collaborations, and analytics projects. Reach out through any channel below.</p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span class="contact-label">Email</span>
+              <a href="mailto:mdsawrab02@gmail.com">mdsawrab02@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/md-sawrab/" target="_blank" rel="noopener">md-sawrab</a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/md-sawrab" target="_blank" rel="noopener">md-sawrab</a>
+            </li>
           </ul>
         </div>
         <form class="contact-form reveal" action="#" method="post">
-          <div class="form-field">
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" placeholder="Sawrab" autocomplete="name" />
-          </div>
-          <div class="form-field">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" placeholder="your@email.com" autocomplete="email" />
-          </div>
-          <div class="form-field">
-            <label for="subject">Subject</label>
-            <input id="subject" type="text" name="subject" placeholder="What is this about?" />
-          </div>
-          <div class="form-field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
-          </div>
-          <button class="btn-submit" type="submit">Send Message</button>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
         </form>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer shell">
-    <p>Sawrab &mdash; Data Analyst &mdash; <span id="year"></span></p>
-    <button id="toTop" type="button">â†‘ Top</button>
+    <div class="footer-main">
+      <h3>MD. SAWRAB</h3>
+      <p>Md. Sawrab © <span id="year"></span> Built with ❤️ by Md. Sawrab</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
