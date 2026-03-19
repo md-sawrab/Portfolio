@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Excel logo</title>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#185c37" />
+  <rect x="24" y="14" width="28" height="36" rx="4" fill="#21a366" />
+  <rect x="28" y="20" width="20" height="3" fill="#ffffff" opacity="0.75" />
+  <rect x="28" y="27" width="20" height="3" fill="#ffffff" opacity="0.75" />
+  <rect x="28" y="34" width="20" height="3" fill="#ffffff" opacity="0.75" />
+  <rect x="12" y="16" width="20" height="32" rx="4" fill="#107c41" />
+  <path d="M16 24h4l2 4 2-4h4l-4 8 4 8h-4l-2-4-2 4h-4l4-8-4-8z" fill="#ffffff" />
+</svg>

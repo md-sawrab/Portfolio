@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>STATA logo</title>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#f3f4f6" />
+  <path d="M8 40h9.4l1.8-4.8h-8c-1.5 0-2.4-.8-2.4-2s.9-2 2.4-2h10.7l1.8-4.8H11.3c-4.7 0-7.8 2.7-7.8 6.8S6.6 40 11.3 40H8Zm18.2 0h6.1V26.4h-6.1V40Zm7.6-13.6h8.9l1.8-4.8H34.9l-1.1 2.8Zm0 13.6h6.1V26.4h-6.1V40Zm7.5-13.6h10.5c1.5 0 2.4.8 2.4 2s-.9 2-2.4 2H41.4l-1.8 4.8h12.2c4.7 0 7.8-2.7 7.8-6.8s-3.1-6.8-7.8-6.8H43l-1.7 4.8Z" fill="#0f6ea6"/>
+</svg>

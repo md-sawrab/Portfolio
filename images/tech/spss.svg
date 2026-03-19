@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>SPSS logo</title>
+  <defs>
+    <radialGradient id="spssBg" cx="22%" cy="20%" r="90%">
+      <stop offset="0" stop-color="#d7ebff" />
+      <stop offset="1" stop-color="#5e95c7" />
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#spssBg)" stroke="#1f6fa8" stroke-width="2" />
+  <path d="M14 18h25l1.2 6H26.4l-4.6 6h11.8l-2.8 6H17.7l-3.7 10h25.3l-1.4 6H8.7l7.8-20.8L14 18z" fill="#ffffff" />
+  <text x="45" y="31" text-anchor="middle" font-size="13" font-family="Times New Roman, serif" font-style="italic" fill="#ffffff">a</text>
+  <line x1="40" y1="39" x2="49" y2="39" stroke="#ffffff" stroke-width="1.7" />
+  <text x="45" y="48" text-anchor="middle" font-size="13" font-family="Times New Roman, serif" font-style="italic" fill="#ffffff">b</text>
+</svg>
