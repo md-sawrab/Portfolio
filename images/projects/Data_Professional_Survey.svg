@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8fbff" />
+      <stop offset="1" stop-color="#eef5ff" />
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0" stop-color="#8fc5f1" />
+      <stop offset="1" stop-color="#1e88e5" />
+    </linearGradient>
+    <style>
+      .title{font:700 36px Manrope, Arial, sans-serif; fill:#1f2937}
+      .panel{fill:#ffffff; stroke:#cfe3f3; stroke-width:1.5}
+      .heading{font:700 18px Manrope, Arial, sans-serif; fill:#6ba9cf}
+      .small{font:500 14px Manrope, Arial, sans-serif; fill:#6b7280}
+      .label{font:500 13px Manrope, Arial, sans-serif; fill:#ffffff}
+      .metricLabel{font:500 22px Manrope, Arial, sans-serif; fill:#202124}
+      .metricValue{font:700 66px Manrope, Arial, sans-serif; fill:#202124}
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+
+  <rect x="24" y="18" width="1152" height="60" fill="#b9d8f3" opacity="0.95" />
+  <text x="600" y="58" text-anchor="middle" class="title">Data Professional Survey Breakdown</text>
+
+  <!-- left top treemap -->
+  <rect x="34" y="88" width="344" height="297" class="panel" />
+  <text x="206" y="106" text-anchor="middle" class="heading">Country of Survey Takers</text>
+  <rect x="40" y="116" width="203" height="86" fill="#8ac0ec" />
+  <rect x="40" y="204" width="203" height="88" fill="#58ace7" />
+  <rect x="40" y="294" width="203" height="84" fill="#0fa0f2" />
+  <rect x="245" y="116" width="127" height="121" fill="#118ae7" />
+  <rect x="245" y="239" width="127" height="139" fill="#0c79dc" />
+  <text x="48" y="143" class="label">Canada</text>
+  <text x="48" y="231" class="label">India</text>
+  <text x="48" y="321" class="label">Other</text>
+  <text x="252" y="145" class="label">United Kingdom</text>
+  <text x="252" y="268" class="label">United States</text>
+
+  <!-- salary chart -->
+  <rect x="392" y="88" width="383" height="297" class="panel" />
+  <text x="583" y="106" text-anchor="middle" class="heading">Average Salary By Job Title</text>
+  <g transform="translate(430,136)">
+    <text x="0" y="18" class="small">Data Scientist</text>
+    <rect x="95" y="4" width="240" height="20" fill="#8fc5f1" />
+    <text x="0" y="53" class="small">Data Engineer</text>
+    <rect x="95" y="39" width="170" height="20" fill="#4fb0f0" />
+    <text x="0" y="88" class="small">Data Architect</text>
+    <rect x="95" y="74" width="164" height="20" fill="#74b9ea" />
+    <text x="0" y="123" class="small">Other</text>
+    <rect x="95" y="109" width="154" height="20" fill="#1494eb" />
+    <text x="0" y="158" class="small">Data Analyst</text>
+    <rect x="95" y="144" width="143" height="20" fill="#177fed" />
+    <text x="0" y="193" class="small">Database Dev...</text>
+    <rect x="95" y="179" width="86" height="20" fill="#1e5de0" />
+    <text x="0" y="228" class="small">Student/Looki...</text>
+    <rect x="95" y="214" width="68" height="20" fill="#174ec9" />
+  </g>
+
+  <!-- top right metric cards -->
+  <rect x="793" y="88" width="182" height="167" class="panel" />
+  <rect x="991" y="88" width="182" height="167" class="panel" />
+  <text x="884" y="106" text-anchor="middle" class="heading" fill="#222">Survey takers</text>
+  <text x="884" y="200" text-anchor="middle" class="metricValue">630</text>
+  <text x="1082" y="106" text-anchor="middle" class="heading" fill="#222">Average Age</text>
+  <text x="1082" y="200" text-anchor="middle" class="metricValue">29.87</text>
+
+  <!-- favorite language chart -->
+  <rect x="34" y="405" width="344" height="332" class="panel" />
+  <text x="206" y="423" text-anchor="middle" class="heading" fill="#222">Favorite Programming Language</text>
+  <g transform="translate(62,462)">
+    <line x1="0" y1="0" x2="276" y2="0" stroke="#e5eef5" />
+    <line x1="0" y1="64" x2="276" y2="64" stroke="#e5eef5" />
+    <line x1="0" y1="128" x2="276" y2="128" stroke="#e5eef5" />
+    <line x1="0" y1="192" x2="276" y2="192" stroke="#e5eef5" />
+    <rect x="28" y="0" width="36" height="168" fill="#0d80ea" />
+    <rect x="28" y="40" width="36" height="18" fill="#7cc1f0" />
+    <rect x="28" y="60" width="36" height="12" fill="#53b1f0" />
+    <rect x="98" y="104" width="36" height="64" fill="#0d80ea" />
+    <rect x="98" y="124" width="36" height="12" fill="#7cc1f0" />
+    <rect x="168" y="108" width="36" height="60" fill="#0d80ea" />
+    <rect x="168" y="128" width="36" height="10" fill="#7cc1f0" />
+    <rect x="238" y="160" width="36" height="8" fill="#0d80ea" />
+    <text x="42" y="198" text-anchor="middle" transform="rotate(-35 42 198)" class="small">Python</text>
+    <text x="112" y="198" text-anchor="middle" transform="rotate(-35 112 198)" class="small">R</text>
+    <text x="182" y="198" text-anchor="middle" transform="rotate(-35 182 198)" class="small">Other</text>
+    <text x="252" y="198" text-anchor="middle" transform="rotate(-35 252 198)" class="small">C/C++</text>
+  </g>
+
+  <!-- donut -->
+  <rect x="392" y="405" width="383" height="332" class="panel" />
+  <text x="583" y="423" text-anchor="middle" class="heading" fill="#222">Difficulty to Break into Data</text>
+  <g transform="translate(585,565)">
+    <circle r="80" fill="none" stroke="#e8eef4" stroke-width="30" />
+    <circle r="80" fill="none" stroke="#3d6bcf" stroke-width="30" stroke-dasharray="285 503" transform="rotate(-90)" />
+    <circle r="80" fill="none" stroke="#44a5e5" stroke-width="30" stroke-dasharray="156 503" transform="rotate(42)" />
+    <circle r="80" fill="none" stroke="#9fcdf3" stroke-width="30" stroke-dasharray="134 503" transform="rotate(145)" />
+    <circle r="80" fill="none" stroke="#1c52c5" stroke-width="30" stroke-dasharray="44 503" transform="rotate(220)" />
+    <circle r="80" fill="none" stroke="#20c9df" stroke-width="30" stroke-dasharray="24 503" transform="rotate(260)" />
+    <circle r="52" fill="#ffffff" />
+    <text x="108" y="-22" class="small">269 (42.7%)</text>
+    <text x="110" y="44" class="small">156 (24.7%)</text>
+    <text x="-156" y="-18" class="small">134 (21%)</text>
+    <text x="-142" y="-92" class="small">44 (6.98%)</text>
+  </g>
+
+  <!-- gauge 1 -->
+  <rect x="793" y="276" width="380" height="223" class="panel" />
+  <text x="983" y="295" text-anchor="middle" class="heading" fill="#222">Happy wotk work Life</text>
+  <g transform="translate(983,476)">
+    <path d="M -150 0 A 150 150 0 0 1 150 0" fill="none" stroke="#efefef" stroke-width="30" />
+    <path d="M -150 0 A 150 150 0 0 1 49 -140" fill="none" stroke="#8fc5f1" stroke-width="30" />
+    <text x="0" y="0" text-anchor="middle" class="metricValue" style="font-size:58px; fill:#6b6b6b">5.74</text>
+    <text x="-158" y="14" class="small">0</text>
+    <text x="150" y="14" class="small">10</text>
+  </g>
+
+  <!-- gauge 2 -->
+  <rect x="793" y="514" width="380" height="223" class="panel" />
+  <text x="983" y="533" text-anchor="middle" class="heading" fill="#222">Happy with salary</text>
+  <g transform="translate(983,714)">
+    <path d="M -150 0 A 150 150 0 0 1 150 0" fill="none" stroke="#efefef" stroke-width="30" />
+    <path d="M -150 0 A 150 150 0 0 1 19 -149" fill="none" stroke="#8fc5f1" stroke-width="30" />
+    <text x="0" y="0" text-anchor="middle" class="metricValue" style="font-size:58px; fill:#6b6b6b">4.27</text>
+    <text x="-158" y="14" class="small">0</text>
+    <text x="150" y="14" class="small">10</text>
+  </g>
+</svg>

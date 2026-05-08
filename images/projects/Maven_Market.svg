@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.28" />
+    </filter>
+    <style>
+      .hdr { font: 700 20px Arial, sans-serif; fill:#ffffff; }
+      .small { font: 500 12px Arial, sans-serif; fill:#666; }
+      .big { font: 700 42px Arial, sans-serif; fill:#1f2937; }
+      .panelTitle { font: 700 14px Arial, sans-serif; fill:#ffffff; }
+      .tableHead { font: 700 12px Arial, sans-serif; fill:#5a5a5a; }
+      .tableText { font: 500 11px Arial, sans-serif; fill:#666; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="#ffffff" />
+
+  <!-- top row cards -->
+  <g filter="url(#shadow)">
+    <rect x="38" y="40" width="255" height="115" rx="6" fill="#fff" />
+    <rect x="313" y="40" width="196" height="115" rx="6" fill="#fff" />
+    <rect x="530" y="40" width="195" height="115" rx="6" fill="#e9f7ef" />
+    <rect x="747" y="40" width="195" height="115" rx="6" fill="#e9f7ef" />
+    <rect x="964" y="40" width="195" height="115" rx="6" fill="#fde8ea" />
+  </g>
+  <rect x="38" y="40" width="255" height="115" rx="6" fill="none" stroke="#d7d7d7" />
+  <rect x="313" y="40" width="196" height="115" rx="6" fill="none" stroke="#d7d7d7" />
+  <rect x="530" y="40" width="195" height="115" rx="6" fill="none" stroke="#d7d7d7" />
+  <rect x="747" y="40" width="195" height="115" rx="6" fill="none" stroke="#d7d7d7" />
+  <rect x="964" y="40" width="195" height="115" rx="6" fill="none" stroke="#d7d7d7" />
+
+  <!-- logo card -->
+  <g transform="translate(60,60)">
+    <g transform="translate(0,0)">
+      <ellipse cx="30" cy="43" rx="14" ry="42" fill="#1f8f3e" transform="rotate(-16 30 43)"/>
+      <ellipse cx="40" cy="43" rx="14" ry="42" fill="#77b255" transform="rotate(16 40 43)"/>
+      <ellipse cx="50" cy="43" rx="14" ry="42" fill="#0d7b2a" transform="rotate(-4 50 43)"/>
+      <rect x="22" y="5" width="16" height="80" fill="#f3efe2" opacity="0.7"/>
+      <text x="72" y="31" style="font:700 29px Georgia, serif; fill:#7bc043; letter-spacing:1px;">MAVEN</text>
+      <text x="72" y="65" style="font:700 34px Georgia, serif; fill:#0a4f37; letter-spacing:1px;">MARKET</text>
+    </g>
+  </g>
+
+  <!-- date slicer -->
+  <g transform="translate(330,60)">
+    <text x="0" y="14" style="font:500 14px Arial, sans-serif; fill:#444;">date</text>
+    <path d="M160 6 l6 6 l6-6" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="0" y="25" width="68" height="26" rx="2" fill="#fff" stroke="#d0d0d0" />
+    <rect x="73" y="25" width="83" height="26" rx="2" fill="#fff" stroke="#d0d0d0" />
+    <text x="10" y="43" class="small">1/1/1997</text>
+    <text x="82" y="43" class="small">12/31/1998</text>
+    <line x1="12" y1="72" x2="166" y2="72" stroke="#666" stroke-width="3" />
+    <circle cx="15" cy="72" r="11" fill="#fff" stroke="#666" stroke-width="2" />
+    <circle cx="164" cy="72" r="11" fill="#fff" stroke="#666" stroke-width="2" />
+  </g>
+
+  <!-- KPI cards -->
+  <g transform="translate(547,60)">
+    <text x="97" y="14" text-anchor="middle" class="panelTitle">Current Month Transactions</text>
+    <text x="97" y="71" text-anchor="middle" class="big" fill="#43a047">18,325✓</text>
+    <text x="97" y="93" text-anchor="middle" class="small">Goal: 17,339 (+5.69%)</text>
+    <path d="M6 103 L20 96 L34 104 L47 95 L58 99 L72 84 L84 71 L97 55 L111 62 L123 44 L138 49 L151 18 L183 6 L183 106 L6 106 Z" fill="#d9f2df" opacity="0.85"/>
+    <path d="M6 103 L20 96 L34 104 L47 95 L58 99 L72 84 L84 71 L97 55 L111 62 L123 44 L138 49 L151 18 L183 6" fill="none" stroke="#c7e9ce" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(764,60)">
+    <text x="97" y="14" text-anchor="middle" class="panelTitle">Current Month Profit</text>
+    <text x="97" y="71" text-anchor="middle" class="big" fill="#43a047">$71,682✓</text>
+    <text x="97" y="93" text-anchor="middle" class="small">Goal: 67.87K (+5.61%)</text>
+    <path d="M6 103 L20 96 L34 104 L47 95 L58 99 L72 84 L84 71 L97 55 L111 62 L123 44 L138 49 L151 18 L183 6 L183 106 L6 106 Z" fill="#d9f2df" opacity="0.85"/>
+    <path d="M6 103 L20 96 L34 104 L47 95 L58 99 L72 84 L84 71 L97 55 L111 62 L123 44 L138 49 L151 18 L183 6" fill="none" stroke="#c7e9ce" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(981,60)">
+    <text x="97" y="14" text-anchor="middle" class="panelTitle">Current Month Returns</text>
+    <text x="97" y="71" text-anchor="middle" class="big" fill="#f61f32">496!</text>
+    <text x="97" y="93" text-anchor="middle" class="small">Goal: 482 (-2.9%)</text>
+    <path d="M6 103 L20 96 L34 104 L47 95 L58 99 L72 84 L84 71 L97 55 L111 62 L123 44 L138 49 L151 18 L183 6 L183 106 L6 106 Z" fill="#f8d7dc" opacity="0.9"/>
+    <path d="M6 103 L20 96 L34 104 L47 95 L58 99 L72 84 L84 71 L97 55 L111 62 L123 44 L138 49 L151 18 L183 6" fill="none" stroke="#f4bbc4" stroke-width="1.5"/>
+  </g>
+
+  <!-- main table -->
+  <g filter="url(#shadow)">
+    <rect x="52" y="191" width="373" height="494" rx="4" fill="#fff" />
+  </g>
+  <g transform="translate(59,214)">
+    <text x="0" y="0" class="tableHead">Product Brand</text>
+    <text x="79" y="0" class="tableHead">Total Transactions</text>
+    <text x="178" y="0" class="tableHead">Total Profit</text>
+    <text x="286" y="0" class="tableHead">Profit Margin</text>
+    <text x="342" y="0" class="tableHead">Return Rate</text>
+    <line x1="0" y1="7" x2="355" y2="7" stroke="#cfe9f0" />
+    <g transform="translate(0,18)">
+      <rect width="56" height="418" fill="#fff" opacity="0" />
+      <g>
+        <text x="0" y="14" class="tableText">Hermanos</text>
+        <rect x="53" y="2" width="64" height="14" fill="#0fb6b6"/>
+        <text x="124" y="14" class="tableText">$33,167</text>
+        <text x="212" y="14" class="tableText">58.54%</text>
+        <rect x="281" y="2" width="48" height="14" fill="#f5b0b0"/>
+        <text x="338" y="14" class="tableText">1.11%</text>
+      </g>
+      <g transform="translate(0,18)"><text x="0" y="14" class="tableText">Tell Tale</text><rect x="53" y="2" width="63" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$29,926</text><text x="212" y="14" class="tableText">58.04%</text><rect x="281" y="2" width="44" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.00%</text></g>
+      <g transform="translate(0,36)"><text x="0" y="14" class="tableText">Ebony</text><rect x="53" y="2" width="61" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$29,749</text><text x="212" y="14" class="tableText">59.82%</text><rect x="281" y="2" width="43" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.95%</text></g>
+      <g transform="translate(0,54)"><text x="0" y="14" class="tableText">Tri-State</text><rect x="53" y="2" width="60" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$29,065</text><text x="212" y="14" class="tableText">58.90%</text><rect x="281" y="2" width="46" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.02%</text></g>
+      <g transform="translate(0,72)"><text x="0" y="14" class="tableText">High Top</text><rect x="53" y="2" width="59" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$28,503</text><text x="212" y="14" class="tableText">60.39%</text><rect x="281" y="2" width="46" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.01%</text></g>
+      <g transform="translate(0,90)"><text x="0" y="14" class="tableText">Nationeel</text><rect x="53" y="2" width="54" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$27,446</text><text x="212" y="14" class="tableText">60.47%</text><rect x="281" y="2" width="45" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.11%</text></g>
+      <g transform="translate(0,108)"><text x="0" y="14" class="tableText">Fast</text><rect x="53" y="2" width="52" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$24,747</text><text x="212" y="14" class="tableText">61.05%</text><rect x="281" y="2" width="44" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.09%</text></g>
+      <g transform="translate(0,126)"><text x="0" y="14" class="tableText">Fort West</text><rect x="53" y="2" width="50" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$23,951</text><text x="212" y="14" class="tableText">59.59%</text><rect x="281" y="2" width="38" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.92%</text></g>
+      <g transform="translate(0,144)"><text x="0" y="14" class="tableText">Horatio</text><rect x="53" y="2" width="49" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$25,589</text><text x="212" y="14" class="tableText">58.44%</text><rect x="281" y="2" width="47" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.25%</text></g>
+      <g transform="translate(0,162)"><text x="0" y="14" class="tableText">Best Choice</text><rect x="53" y="2" width="48" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$25,901</text><text x="212" y="14" class="tableText">60.60%</text><rect x="281" y="2" width="32" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.84%</text></g>
+      <g transform="translate(0,180)"><text x="0" y="14" class="tableText">Sunset</text><rect x="53" y="2" width="48" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$20,803</text><text x="212" y="14" class="tableText">60.49%</text><rect x="281" y="2" width="39" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.04%</text></g>
+      <g transform="translate(0,198)"><text x="0" y="14" class="tableText">Red Wing</text><rect x="53" y="2" width="47" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$23,624</text><text x="212" y="14" class="tableText">59.37%</text><rect x="281" y="2" width="44" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.09%</text></g>
+      <g transform="translate(0,216)"><text x="0" y="14" class="tableText">Big Time</text><rect x="53" y="2" width="47" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$23,710</text><text x="212" y="14" class="tableText">60.26%</text><rect x="281" y="2" width="40" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.97%</text></g>
+      <g transform="translate(0,234)"><text x="0" y="14" class="tableText">Carrington</text><rect x="53" y="2" width="46" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$21,468</text><text x="212" y="14" class="tableText">59.52%</text><rect x="281" y="2" width="36" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.89%</text></g>
+      <g transform="translate(0,252)"><text x="0" y="14" class="tableText">Cormorant</text><rect x="53" y="2" width="45" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$22,502</text><text x="212" y="14" class="tableText">61.52%</text><rect x="281" y="2" width="34" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.90%</text></g>
+      <g transform="translate(0,270)"><text x="0" y="14" class="tableText">High Quality</text><rect x="53" y="2" width="43" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$24,008</text><text x="212" y="14" class="tableText">60.00%</text><rect x="281" y="2" width="37" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.03%</text></g>
+      <g transform="translate(0,288)"><text x="0" y="14" class="tableText">BBB Best</text><rect x="53" y="2" width="43" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$19,375</text><text x="212" y="14" class="tableText">62.10%</text><rect x="281" y="2" width="32" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.90%</text></g>
+      <g transform="translate(0,306)"><text x="0" y="14" class="tableText">Imagine</text><rect x="53" y="2" width="43" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$21,742</text><text x="212" y="14" class="tableText">61.51%</text><rect x="281" y="2" width="34" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.98%</text></g>
+      <g transform="translate(0,324)"><text x="0" y="14" class="tableText">Denny</text><rect x="53" y="2" width="42" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$23,050</text><text x="212" y="14" class="tableText">58.07%</text><rect x="281" y="2" width="35" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.91%</text></g>
+      <g transform="translate(0,342)"><text x="0" y="14" class="tableText">Golden</text><rect x="53" y="2" width="41" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$19,403</text><text x="212" y="14" class="tableText">58.71%</text><rect x="281" y="2" width="31" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.91%</text></g>
+      <g transform="translate(0,360)"><text x="0" y="14" class="tableText">PigTail</text><rect x="53" y="2" width="41" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$17,338</text><text x="212" y="14" class="tableText">60.68%</text><rect x="281" y="2" width="33" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.96%</text></g>
+      <g transform="translate(0,378)"><text x="0" y="14" class="tableText">Super</text><rect x="53" y="2" width="40" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$19,600</text><text x="212" y="14" class="tableText">60.66%</text><rect x="281" y="2" width="33" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.94%</text></g>
+      <g transform="translate(0,396)"><text x="0" y="14" class="tableText">Landslide</text><rect x="53" y="2" width="40" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$15,987</text><text x="212" y="14" class="tableText">58.63%</text><rect x="281" y="2" width="31" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">0.97%</text></g>
+      <g transform="translate(0,414)"><text x="0" y="14" class="tableText">Plato</text><rect x="53" y="2" width="39" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$18,503</text><text x="212" y="14" class="tableText">63.55%</text><rect x="281" y="2" width="34" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.04%</text></g>
+      <g transform="translate(0,432)"><text x="0" y="14" class="tableText">CDR</text><rect x="53" y="2" width="37" height="14" fill="#0fb6b6"/><text x="124" y="14" class="tableText">$18,008</text><text x="212" y="14" class="tableText">59.03%</text><rect x="281" y="2" width="31" height="14" fill="#f5b0b0"/><text x="338" y="14" class="tableText">1.00%</text></g>
+    </g>
+    <text x="0" y="467" class="tableText" font-weight="700">Total</text>
+    <text x="79" y="467" class="tableText" font-weight="700">167,616</text>
+    <text x="174" y="467" class="tableText" font-weight="700">$661,159</text>
+    <text x="286" y="467" class="tableText" font-weight="700">59.93%</text>
+    <text x="342" y="467" class="tableText" font-weight="700">0.99%</text>
+  </g>
+
+  <!-- selector card -->
+  <g filter="url(#shadow)">
+    <rect x="438" y="205" width="96" height="252" rx="4" fill="#fff" />
+  </g>
+  <g transform="translate(456,223)">
+    <rect width="59" height="54" fill="#f1f1f1" />
+    <rect y="63" width="59" height="54" fill="#f1f1f1" />
+    <rect y="126" width="59" height="54" fill="#f1f1f1" />
+    <rect y="189" width="59" height="54" fill="#f1f1f1" />
+    <text x="29" y="26" text-anchor="middle" class="small">Select</text>
+    <text x="29" y="41" text-anchor="middle" class="small">all</text>
+    <text x="29" y="89" text-anchor="middle" class="small">Canada</text>
+    <text x="29" y="152" text-anchor="middle" class="small">Mexico</text>
+    <text x="29" y="215" text-anchor="middle" class="small">USA</text>
+  </g>
+
+  <!-- map card -->
+  <g filter="url(#shadow)">
+    <rect x="552" y="205" width="397" height="252" rx="4" fill="#fff" />
+  </g>
+  <rect x="552" y="205" width="397" height="252" fill="#a7c8f4" />
+  <rect x="559" y="212" width="383" height="220" fill="#b6d2f5" opacity="0.85" />
+  <g opacity="0.9">
+    <ellipse cx="626" cy="241" rx="22" ry="22" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="618" cy="239" rx="12" ry="12" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="627" cy="250" rx="9" ry="9" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="718" cy="242" rx="19" ry="19" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="687" cy="258" rx="16" ry="16" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="668" cy="271" rx="12" ry="12" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="665" cy="299" rx="14" ry="14" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="705" cy="326" rx="17" ry="17" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="666" cy="329" rx="13" ry="13" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="652" cy="332" rx="10" ry="10" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="688" cy="353" rx="16" ry="16" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="729" cy="340" rx="13" ry="13" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="741" cy="364" rx="11" ry="11" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="845" cy="256" rx="17" ry="17" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="809" cy="320" rx="20" ry="20" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="773" cy="355" rx="12" ry="12" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+    <ellipse cx="758" cy="340" rx="10" ry="10" fill="#16b5b7" stroke="#058b8d" stroke-width="2"/>
+  </g>
+  <text x="833" y="329" class="small" fill="#466ab1">Atlantic</text>
+  <text x="833" y="344" class="small" fill="#466ab1">Ocean</text>
+  <text x="763" y="390" class="small" fill="#333">SOUTH AMERICA</text>
+  <text x="564" y="432" class="small" fill="#888">Microsoft Bing</text>
+
+  <!-- treemap right -->
+  <g filter="url(#shadow)">
+    <rect x="965" y="205" width="195" height="252" rx="4" fill="#fff" />
+  </g>
+  <rect x="965" y="205" width="132" height="230" fill="#08b8b4" />
+  <rect x="1099" y="205" width="57" height="230" fill="#455a64" />
+  <rect x="965" y="436" width="191" height="14" fill="#f05a59" />
+  <text x="976" y="224" class="tableHead" fill="#fff">USA</text>
+  <text x="1103" y="224" class="tableHead" fill="#fff">Mexico</text>
+
+  <!-- bottom revenue chart -->
+  <g filter="url(#shadow)">
+    <rect x="439" y="494" width="479" height="191" rx="4" fill="#fff" />
+  </g>
+  <rect x="439" y="494" width="479" height="28" rx="4" fill="#636a6d" />
+  <text x="678" y="512" text-anchor="middle" class="panelTitle">Weekly Revenue Trending</text>
+  <g transform="translate(472,540)">
+    <line x1="0" y1="110" x2="408" y2="110" stroke="#ddd" />
+    <line x1="0" y1="78" x2="408" y2="78" stroke="#eee" />
+    <line x1="0" y1="46" x2="408" y2="46" stroke="#eee" />
+    <line x1="0" y1="14" x2="408" y2="14" stroke="#eee" />
+    <path d="M0 88 L12 60 L24 70 L36 55 L48 62 L60 57 L72 64 L84 50 L96 67 L108 56 L120 64 L132 54 L144 68 L156 49 L168 76 L180 56 L192 62 L204 45 L216 74 L228 63 L240 53 L252 60 L264 47 L276 68 L288 55 L300 66 L312 50 L324 57 L336 49 L348 46 L360 18 L372 76 L384 60" fill="none" stroke="#00b7ad" stroke-width="3"/>
+    <rect x="374" y="36" width="28" height="74" fill="#c9c9c9" opacity="0.8" />
+    <path d="M362 40 L408 28" stroke="#6a6a6a" stroke-width="2"/>
+    <path d="M362 72 L408 72" stroke="#6a6a6a" stroke-width="2"/>
+    <path d="M362 104 L408 108" stroke="#6a6a6a" stroke-width="2"/>
+    <text x="18" y="104" class="small">$3K</text>
+    <text x="128" y="70" class="small">$31K</text>
+    <text x="252" y="62" class="small">$35K</text>
+    <text x="346" y="16" class="small">$45K</text>
+    <text x="0" y="132" class="small">Jan 1997</text>
+    <text x="170" y="132" class="small">Jan 1998</text>
+    <text x="338" y="132" class="small">Jan 1999</text>
+    <line x1="20" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3" />
+    <circle cx="20" cy="150" r="8" fill="#fff" stroke="#666" stroke-width="2" />
+    <circle cx="400" cy="150" r="8" fill="#fff" stroke="#666" stroke-width="2" />
+  </g>
+
+  <!-- gauge bottom right -->
+  <g filter="url(#shadow)">
+    <rect x="933" y="494" width="227" height="191" rx="4" fill="#fff" />
+  </g>
+  <rect x="933" y="494" width="227" height="28" rx="4" fill="#636a6d" />
+  <text x="1046" y="512" text-anchor="middle" class="panelTitle">Revenue vs. Target</text>
+  <g transform="translate(1046,644)">
+    <path d="M -98 0 A 98 98 0 0 1 98 0" fill="none" stroke="#efefef" stroke-width="28" />
+    <path d="M -98 0 A 98 98 0 0 1 0 -98" fill="none" stroke="#08b8b4" stroke-width="28" />
+    <text x="0" y="-98" text-anchor="middle" class="small">$119.48K</text>
+    <text x="0" y="22" text-anchor="middle" class="big" style="font-size:34px">$120K</text>
+  </g>
+</svg>

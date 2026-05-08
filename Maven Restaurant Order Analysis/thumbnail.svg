@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#0ea5a6" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+
+  <!-- Card -->
+  <g transform="translate(80,80)" filter="url(#shadow)">
+    <rect width="1040" height="640" rx="24" fill="#ffffff" opacity="0.06" />
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(140,180)">
+    <text x="0" y="0" font-family="Manrope, Arial, sans-serif" font-size="56" fill="#ffffff" font-weight="700">Maven Restaurant</text>
+    <text x="0" y="72" font-family="Manrope, Arial, sans-serif" font-size="40" fill="#e6fffa">Order Analysis</text>
+  </g>
+
+  <!-- SQL cylinder icon -->
+  <g transform="translate(880,180)">
+    <ellipse cx="0" cy="0" rx="80" ry="28" fill="#fff" opacity="0.12" transform="translate(0,20)" />
+    <rect x="-80" y="20" width="160" height="120" rx="12" fill="#fff" opacity="0.12" />
+    <ellipse cx="0" cy="20" rx="80" ry="28" fill="#06b6d4" />
+    <ellipse cx="0" cy="20" rx="80" ry="28" fill="#0ea5a6" fill-opacity="0.95" />
+    <text x="0" y="16" fill="#042f2f" font-family="Manrope, Arial, sans-serif" font-size="28" text-anchor="middle" font-weight="700">SQL</text>
+  </g>
+
+  <!-- Fork & Knife decorative -->
+  <g transform="translate(160,420) scale(2)">
+    <path d="M15 1c-2 0-3 1-4 3-1 2-1 5 0 7s3 4 6 4c3 0 5-1 6-4 1-2 1-5 0-7-1-2-2-3-4-3-1 0-2 0-4 0z" fill="#fff" opacity="0.88" transform="translate(0,0) scale(0.9)"/>
+    <rect x="36" y="-2" width="6" height="28" rx="3" fill="#fff" opacity="0.9" transform="rotate(-15 39 12)"/>
+  </g>
+
+  <!-- Subtitle + bullets -->
+  <g transform="translate(140,320)">
+    <text x="0" y="0" font-family="Manrope, Arial, sans-serif" font-size="22" fill="#dffaf8">EDA • Menu vs Orders • Top Orders</text>
+    <g transform="translate(0,36)">
+      <circle cx="8" cy="8" r="6" fill="#06b6d4" />
+      <text x="28" y="13" font-family="Manrope, Arial, sans-serif" font-size="18" fill="#e6fffa">Create + populate `restaurant_db`</text>
+    </g>
+    <g transform="translate(0,68)">
+      <circle cx="8" cy="8" r="6" fill="#06b6d4" />
+      <text x="28" y="13" font-family="Manrope, Arial, sans-serif" font-size="18" fill="#e6fffa">JOINs, aggregations, insights</text>
+    </g>
+  </g>
+
+  <!-- Footer accent -->
+  <rect x="0" y="740" width="1200" height="60" fill="#001219" opacity="0.08" />
+</svg>
