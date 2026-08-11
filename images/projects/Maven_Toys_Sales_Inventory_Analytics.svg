@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.22" />
+    </filter>
+    <style>
+      .title { font: 800 34px Arial, sans-serif; fill: #1f2937; }
+      .panelTitle { font: 700 16px Arial, sans-serif; fill: #111827; }
+      .kpiLabel { font: 700 14px Arial, sans-serif; fill: #111827; }
+      .kpiValue { font: 700 30px Arial, sans-serif; fill: #111827; }
+      .navText { font: 700 16px Arial, sans-serif; fill: #111827; }
+      .small { font: 600 12px Arial, sans-serif; fill: #5b6472; }
+      .mini { font: 600 11px Arial, sans-serif; fill: #5b6472; }
+      .note { font: 700 13px Arial, sans-serif; fill: #111827; }
+    </style>
+  </defs>
+
+  <rect width="1366" height="768" fill="#ffffff" />
+  <text x="44" y="61" class="title">Executive Overview</text>
+
+  <g transform="translate(34,110)">
+    <rect x="0" y="0" width="1298" height="628" rx="0" fill="#f7d8bf" opacity="0.72" />
+
+    <g filter="url(#shadow)">
+      <rect x="10" y="10" width="202" height="602" fill="#f4b583" stroke="#d58f54" />
+      <rect x="18" y="20" width="186" height="88" fill="#fff" rx="2" />
+      <text x="111" y="72" text-anchor="middle" class="navText" style="font-size:23px;">Maven Toy Sales</text>
+
+      <rect x="18" y="132" width="186" height="30" fill="#fff" rx="3" />
+      <rect x="18" y="180" width="186" height="30" fill="#fff" rx="3" />
+      <rect x="18" y="228" width="186" height="30" fill="#fff" rx="3" />
+      <rect x="18" y="276" width="186" height="30" fill="#fff" rx="3" />
+      <text x="111" y="153" text-anchor="middle" class="navText">Executive</text>
+      <text x="111" y="201" text-anchor="middle" class="navText">Store</text>
+      <text x="111" y="249" text-anchor="middle" class="navText">Product</text>
+      <text x="111" y="297" text-anchor="middle" class="navText">Inventory</text>
+
+      <rect x="18" y="320" width="186" height="90" fill="#fff" rx="0" />
+      <text x="24" y="340" class="kpiLabel" style="font-size:14px;">Year</text>
+      <text x="176" y="340" class="mini">☰  ⌄</text>
+      <rect x="26" y="348" width="145" height="22" fill="#f6c5a3" stroke="#d9a77f" />
+      <rect x="26" y="374" width="145" height="22" fill="#f6c5a3" stroke="#d9a77f" />
+      <text x="34" y="364" class="small">2022</text>
+      <text x="34" y="390" class="small">2023</text>
+      <rect x="178" y="348" width="4" height="40" fill="#d1d5db" />
+
+      <rect x="18" y="432" width="186" height="150" fill="#fff" rx="0" />
+      <text x="24" y="454" class="kpiLabel" style="font-size:14px;">Product_Category</text>
+      <text x="176" y="454" class="mini">☰  ⌄</text>
+      <rect x="26" y="462" width="145" height="19" fill="#f6c5a3" stroke="#d9a77f" />
+      <rect x="26" y="485" width="145" height="19" fill="#f6c5a3" stroke="#d9a77f" />
+      <rect x="26" y="508" width="145" height="19" fill="#f6c5a3" stroke="#d9a77f" />
+      <rect x="26" y="531" width="145" height="19" fill="#f6c5a3" stroke="#d9a77f" />
+      <rect x="26" y="554" width="145" height="19" fill="#f6c5a3" stroke="#d9a77f" />
+      <text x="34" y="476" class="small">Art &amp; Crafts</text>
+      <text x="34" y="499" class="small">Electronics</text>
+      <text x="34" y="522" class="small">Games</text>
+      <text x="34" y="545" class="small">Sports &amp; Outdoors</text>
+      <text x="34" y="568" class="small">Toys</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="232" y="12" width="242" height="120" rx="4" fill="#fff" />
+      <rect x="500" y="12" width="242" height="120" rx="4" fill="#fff" />
+      <rect x="768" y="12" width="242" height="120" rx="4" fill="#fff" />
+      <rect x="1036" y="12" width="242" height="120" rx="4" fill="#fff" />
+      <text x="353" y="45" text-anchor="middle" class="kpiLabel" style="font-size:16px;">Total Revenue</text>
+      <text x="353" y="88" text-anchor="middle" class="kpiValue">$14.44M</text>
+      <text x="621" y="45" text-anchor="middle" class="kpiLabel" style="font-size:16px;">Total Profit</text>
+      <text x="621" y="88" text-anchor="middle" class="kpiValue">$4.01M</text>
+      <text x="889" y="45" text-anchor="middle" class="kpiLabel" style="font-size:16px;">Total Unit Sold</text>
+      <text x="889" y="88" text-anchor="middle" class="kpiValue">1.09M</text>
+      <text x="1157" y="45" text-anchor="middle" class="kpiLabel" style="font-size:16px;">Total Transaction</text>
+      <text x="1157" y="88" text-anchor="middle" class="kpiValue">829.26K</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="232" y="156" width="544" height="236" rx="10" fill="#fff" />
+      <rect x="792" y="156" width="484" height="236" rx="10" fill="#fff" />
+      <rect x="232" y="410" width="420" height="191" rx="10" fill="#fff" />
+      <rect x="668" y="410" width="389" height="191" rx="10" fill="#fff" />
+      <rect x="1069" y="410" width="207" height="191" rx="10" fill="#fff" />
+    </g>
+
+    <text x="504" y="183" text-anchor="middle" class="panelTitle">Revenue trend by Month</text>
+    <line x1="282" y1="350" x2="710" y2="350" stroke="#d8d8d8" />
+    <line x1="296" y1="335" x2="296" y2="328" stroke="#d8d8d8" />
+    <polyline points="282,221 316,223 350,203 384,201 418,202 452,204 486,210 520,233 554,225 588,296 622,300 656,279" fill="none" stroke="#f39a5b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="282" cy="221" r="3.8" fill="#2f5fa5" />
+    <circle cx="316" cy="223" r="3.8" fill="#2f5fa5" />
+    <circle cx="350" cy="203" r="3.8" fill="#2f5fa5" />
+    <circle cx="384" cy="201" r="3.8" fill="#2f5fa5" />
+    <circle cx="418" cy="202" r="3.8" fill="#2f5fa5" />
+    <circle cx="452" cy="204" r="3.8" fill="#2f5fa5" />
+    <circle cx="486" cy="210" r="3.8" fill="#2f5fa5" />
+    <circle cx="520" cy="233" r="3.8" fill="#2f5fa5" />
+    <circle cx="554" cy="225" r="3.8" fill="#2f5fa5" />
+    <circle cx="588" cy="296" r="3.8" fill="#2f5fa5" />
+    <circle cx="622" cy="300" r="3.8" fill="#2f5fa5" />
+    <circle cx="656" cy="279" r="3.8" fill="#2f5fa5" />
+    <text x="242" y="215" class="mini">$1.6M</text>
+    <text x="242" y="232" class="mini">$1.4M</text>
+    <text x="242" y="248" class="mini">$1.2M</text>
+    <text x="242" y="264" class="mini">$1.0M</text>
+    <text x="242" y="280" class="mini">$0.8M</text>
+    <text x="242" y="296" class="mini">$0.6M</text>
+    <text x="242" y="312" class="mini">$0.4M</text>
+    <text x="242" y="328" class="mini">$0.2M</text>
+    <text x="242" y="344" class="mini">$0.0M</text>
+    <text x="279" y="370" transform="rotate(-45 279 370)" class="mini">January</text>
+    <text x="312" y="370" transform="rotate(-45 312 370)" class="mini">February</text>
+    <text x="347" y="370" transform="rotate(-45 347 370)" class="mini">March</text>
+    <text x="382" y="370" transform="rotate(-45 382 370)" class="mini">April</text>
+    <text x="417" y="370" transform="rotate(-45 417 370)" class="mini">May</text>
+    <text x="452" y="370" transform="rotate(-45 452 370)" class="mini">June</text>
+    <text x="487" y="370" transform="rotate(-45 487 370)" class="mini">July</text>
+    <text x="522" y="370" transform="rotate(-45 522 370)" class="mini">August</text>
+    <text x="557" y="370" transform="rotate(-45 557 370)" class="mini">September</text>
+    <text x="592" y="370" transform="rotate(-45 592 370)" class="mini">October</text>
+    <text x="627" y="370" transform="rotate(-45 627 370)" class="mini">November</text>
+    <text x="662" y="370" transform="rotate(-45 662 370)" class="mini">December</text>
+
+    <text x="1034" y="183" text-anchor="middle" class="panelTitle">Revenue by Weekday</text>
+    <line x1="824" y1="348" x2="1248" y2="348" stroke="#d8d8d8" />
+    <rect x="848" y="238" width="38" height="110" fill="#f3b07c" />
+    <rect x="910" y="286" width="38" height="62" fill="#f3b07c" />
+    <rect x="972" y="226" width="38" height="122" fill="#f3b07c" />
+    <rect x="1034" y="275" width="38" height="73" fill="#f3b07c" />
+    <rect x="1096" y="258" width="38" height="90" fill="#f3b07c" />
+    <rect x="1158" y="282" width="38" height="66" fill="#f3b07c" />
+    <rect x="1220" y="277" width="38" height="71" fill="#f3b07c" />
+    <text x="867" y="225" text-anchor="middle" class="mini">$2.8M</text>
+    <text x="929" y="274" text-anchor="middle" class="mini">$1.5M</text>
+    <text x="991" y="215" text-anchor="middle" class="mini">$2.9M</text>
+    <text x="1053" y="266" text-anchor="middle" class="mini">$1.7M</text>
+    <text x="1115" y="248" text-anchor="middle" class="mini">$2.2M</text>
+    <text x="1177" y="272" text-anchor="middle" class="mini">$1.6M</text>
+    <text x="1239" y="267" text-anchor="middle" class="mini">$1.7M</text>
+    <text x="867" y="387" text-anchor="middle" class="mini">Friday</text>
+    <text x="929" y="387" text-anchor="middle" class="mini">Monday</text>
+    <text x="991" y="387" text-anchor="middle" class="mini">Saturday</text>
+    <text x="1053" y="387" text-anchor="middle" class="mini">Sunday</text>
+    <text x="1115" y="387" text-anchor="middle" class="mini">Thursday</text>
+    <text x="1177" y="387" text-anchor="middle" class="mini">Tuesday</text>
+    <text x="1239" y="387" text-anchor="middle" class="mini">Wednesday</text>
+
+    <text x="442" y="435" text-anchor="middle" class="panelTitle">Revenue by Store Location</text>
+    <circle cx="435" cy="521" r="59" fill="#ededed" />
+    <path d="M435 462 A59 59 0 0 1 480 485 L435 521 Z" fill="#4f7fd1" />
+    <path d="M480 485 A59 59 0 0 1 500 521 L435 521 Z" fill="#f58220" />
+    <path d="M500 521 A59 59 0 0 1 461 575 L435 521 Z" fill="#b3b3b3" />
+    <path d="M461 575 A59 59 0 0 1 404 563 L435 521 Z" fill="#f2bb0b" />
+    <text x="360" y="464" class="mini">$1.29M</text>
+    <text x="513" y="487" class="mini">$3.28M</text>
+    <text x="523" y="550" class="mini">$8.22M</text>
+    <text x="370" y="582" class="mini">$1.66M</text>
+    <text x="405" y="450" class="mini">Airport</text>
+    <text x="474" y="450" class="mini">Commercial</text>
+    <text x="541" y="450" class="mini">Downtown</text>
+    <text x="605" y="450" class="mini">Residential</text>
+
+    <text x="862" y="435" text-anchor="middle" class="panelTitle">Revenue by Quarter</text>
+    <rect x="768" y="497" width="48" height="82" fill="#f3b07c" />
+    <rect x="858" y="478" width="48" height="101" fill="#f3b07c" />
+    <rect x="948" y="489" width="48" height="90" fill="#f3b07c" />
+    <rect x="1038" y="543" width="48" height="36" fill="#f3b07c" />
+    <line x1="744" y1="580" x2="1124" y2="580" stroke="#d8d8d8" />
+    <text x="792" y="590" text-anchor="middle" class="mini">Q1</text>
+    <text x="882" y="590" text-anchor="middle" class="mini">Q2</text>
+    <text x="972" y="590" text-anchor="middle" class="mini">Q3</text>
+    <text x="1062" y="590" text-anchor="middle" class="mini">Q4</text>
+    <text x="792" y="486" text-anchor="middle" class="mini">$4.0M</text>
+    <text x="882" y="467" text-anchor="middle" class="mini">$4.5M</text>
+    <text x="972" y="478" text-anchor="middle" class="mini">$3.8M</text>
+    <text x="1062" y="532" text-anchor="middle" class="mini">$2.2M</text>
+
+    <g filter="url(#shadow)">
+      <rect x="1070" y="410" width="207" height="191" rx="10" fill="#fff" />
+    </g>
+    <text x="1120" y="448" class="note" fill="#5b7f34">Revenue:</text>
+    <text x="1186" y="448" class="note">$14.44M | Profit:</text>
+    <text x="1120" y="470" class="note">$4.01M (27.8%)</text>
+    <text x="1120" y="514" class="note" fill="#5b7f34">Peak:</text>
+    <text x="1159" y="514" class="note">March–June &amp;</text>
+    <text x="1120" y="536" class="note">Saturday ($2.9M)</text>
+    <text x="1120" y="580" class="note" fill="#5b7f34">Lowest:</text>
+    <text x="1174" y="580" class="note">October–</text>
+    <text x="1120" y="602" class="note">November sales decline</text>
+  </g>
+</svg>
